@@ -32,7 +32,7 @@ pipeline{
     }
     stage ('RunContainer on Dev Server'){
         steps{
-        sh "docker run -d -p 55:8080 meghmayu/goa:${DOCKER_TAG}"
+        sh "docker run -d -p 54:8080 meghmayu/goa:${DOCKER_TAG}"
     }
     }
     }
